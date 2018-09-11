@@ -1,0 +1,41 @@
+input,
+button {
+    padding: 10px;
+    border: 1px solid #666666;
+}
+
+#generator-button {
+    background: #99cc99;    
+    border: 1px solid #88de88;
+}
+
+#clear-button {
+    background: #ffaaaa;    
+    border: 1px solid #de6767;
+    float: right;    
+}
+
+#dynamic-container,
+#dynamic-container > div {
+    border: 1px solid #878787;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#dynamic-container > div:last-child {
+    margin-bottom: 0;
+}
+
+#controls {
+    margin-bottom: 2px;
+}
+#important-info {
+    margin-bottom: 40px;
+}
+
+#important-info > span {
+    border: 1px solid #de6767;
+    color:  #de6767;
+    padding: 10px 5px;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mutation Observer Experiment</h1>
+    <div id="important-info">
+        <span>Note: It makes sense to open the console now</span>
+    </div>
+
+    <div id="controls">
+        <input type="number" min="1" max="10" value="1" id="generator-counter" />
+        <button id="generator-button">Generate divs</button>
+        <button id="clear-button">Clear container</button>
+    </div>
+
+    <div id="dynamic-container"></div>    
+    <script src="./scripts/div-generator.js"></script>
+    <script src="./scripts/mutation-observer.js"></script>
+</body>
+</html>
